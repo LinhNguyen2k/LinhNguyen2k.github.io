@@ -1,0 +1,44 @@
+.menu ul li{
+    width: 200px;
+    background: green;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none; 
+    color: white;  
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu {
+    width: 1300px;
+    margin: 0 auto;
+}
+ .menucon1 li{
+     float: left;
+     text-align: center;
+     position: relative;
+  }
+.menucon1 li:hover {
+    background-image: repeating-linear-gradient(red,aqua,black);}
+
+.menucon1 .menucon {
+    display: none;
+    position: absolute;
+    width: 100px;
+   left: 239px;
+    background-image: repeating-linear-gradient(red,aqua,black);
+    padding-left: 0;
+    bottom: -197px;
+}
+
+.menucon1 li:hover>.menucon {
+    display: block;
+    position:absolute;
+}
+.menucon1>li>.menucon {
+    left: 0;
+  top:49px;
+}
+
+
