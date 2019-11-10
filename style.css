@@ -4,81 +4,87 @@
 }
 *{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .menu{
     background: white;
     width: 100%;
     position: fixed;
     top: 0;
- 
+    z-index: 100;
 }
 .menu ul{
     display: block;
     list-style-type: disc;
- 
-
 }
 li {
- float: left;
- display: inline-flex;
+    float: right;
+    display: inline-flex;
+    border-radius: 10px 10px;
+    border: 1px solid blue;
+    padding: 5px;
+    margin-right: 20px;
+   }
+   a{
+       font-size: 15px;
+       text-decoration: none;
+       padding: 5px 5px;
+       
+   }
+   ul{
+       list-style-type: none;
+   }
+   i{
+       color: black;
+   }
+.background{
+    background-image: url('jpg5.jpg');
+    background-attachment: fixed;
+    width: 100%;
+    height: 500px;
+    background-size: 100%;
 }
-a{
-    font-size: 20px;
-    text-decoration: none;
-    padding: 25px 15px;
-}
-ul{
-    list-style-type: none;
+.logo{
+    background-image: url('jpg1.png');
+    position: absolute;
+    top: 400px;
+    left: 43%;
+    height: 170px;
+    width: 170px;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    border: 2px solid rgb(209, 196, 16);
+    background-size: 100%;
 }
 .mid{
     width: 100%;
-    height: auto;
-   
+    background-color: white;
+    clear: both;
+    position: relative;
+    margin-bottom: 10px;
 }
-.menu1{
- background-attachment: fixed;
-    background-image: url('jpg5.jpg');
-    width: 100%;
-    height: 600px;
-    background-size: 100% 80%;
-    background-repeat: no-repeat;
+.mid_content{
+    display: flex;
+    width: 70%;
+    margin: 100px auto;
 }
-.title{
+.img{
+    
+    width: 50%;
+    padding: 10px;
+}
+.anh{
+    width: 90%;
+    height: 500px;
+    border-radius: 10px;
+}
+.content{
+    width: 50%;
+    padding: 10px;
     text-align: center;
     color: gray;
-    padding: 30px;
-}
-.mid_top{
-    margin: 0 auto;
-        text-align: center;
-    width: 75%;
-    color: gray;
-    font-size: 20px;
-}
-.mid_center
-{
-    width: 75%;
-    height: auto;
-   margin: 0 auto;
-}
-.mid_center_left
-{
-background-image: url('jpg02.jpg');
-border-radius: 50%;
-background-size: 20% ;
-width: 400px;
-height: 400px;
-
-float: left;
-}
-.mid_center_right
-{
-  width: 45%;
-  float: left;
-  color: gray;
-  font-size: 20px;
-  padding: 100px;
-  text-align: center;
+    font-size: 18px;
+    line-height:30px;
 }
 .footer{
     width: 100%;
