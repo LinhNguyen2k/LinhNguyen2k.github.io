@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.all{
+    width: 100%;
+    background: saddlebrown;
+}
+.menu{
+    background-image: url('anh3.jpg');
+    position: fixed;
+    background-size: 100% 100%;
+    width: 40%;
+    top:0px;
+    float: left;
+    height: 750px;
+}
+.conten-right{
+    width: 60%;
+    height: auto;
+    float: right;
+}
+.top{
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+    margin-top:100px;
+    box-sizing: content-box;
+    font-size: 60px;
+}
+b{
+    font-weight: 500;
+}
+p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(73, 73, 72);
+    font-weight: 100;
+}
+.button{
+    font-weight: 500;
+    text-align: center;
+    padding: 7px;
+    color: rgb(73, 73, 72);
+    border: 1px solid rgb(217, 221, 220);
+        background-color: #f1f1f1;
+        padding: 15px  ;
+}
+.button:hover
+{
+    background: rgb(156, 155, 155);
+}
+.conten-right-mid{
+    width: 60%;
+    height: auto;
+    margin-top: 200px;
+    float: right;
+}
+.menu1{
+    width: 96%;
+    color: #757575!important;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 30px;
+}
+.img{
+    width: 96%;
+    height: auto;
+    margin: 0 auto;
+}
+.img-left{
+width: 50%;
+height: auto;
+float: left;
+}
+.img-right{
+    float: right;
+    width: 50%;
+}
+.hi{
+    width: 96%;
+    color: #757575!important;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify!important;
+}
+.ha{
+    width: 96%;
+    color: #757575!important;
+    font-weight: 400;
+    margin: 0 auto;
+    font-size: 22px;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+}
+.haha{
+    margin: 0 auto;
+    text-align: center;
+    width: 96%;
+    background: white;
+    margin-bottom: 15px;
+}
+.hmm{
+    width: 95%;
+    text-align: center;
+    background: rgb(168, 15, 48);
+}
+.ul{
+    width: 96%;
+    height: 100px;
+    background: rgb(43, 41, 41);
+    display: block;
+    font-size: 24px;
+    box-sizing: border-box;
+    padding: 25px;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+.span{
+    padding: 15px 70px 20px 70px;
+}
+.li{
+    display: block;
+    width: 24.999%;
+    float: left;
+    height: auto;
+    text-align: center;
+    
+}
+.border-radius{
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+}
+.mySkills
+{   text-align: justify!important;
+  margin-top: 35px;
+  float: left;
+  
+}
+.anh{
+    float: left;
+}
+.menu2{
+    width: 98%;
+    height: auto;
+    list-style: none;
+}
+.menucon1{
+    padding-top:30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background: #616161;
+    color: #fff;
+}
+.menucon2{
+    color: #757575;
+    padding-top:30px;
+    padding-bottom: 30px;
+    text-align: center;
+
+    border: 1px solid rgb(131, 130, 130);
+}
+.menucon22:hover{
+    background: yellow;
+}
+.fa-map-marker{
+    font-size: 200%;
+}
+.fa-phone{
+    font-size: 200%;
+}
+.fa-envelope{
+    font-size:200%;
+}
+.footer{
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.6;
+}
+.img-left:hover{
+    box-shadow: #616161;
+}
+@media only screen and (max-width:1000px){
+    .menu{
+        width: 40%;
+        margin: 0 auto;
+        display: none;
+    }
+    .conten-right{
+        width: 99%;
+        margin: 0 auto;
+    
+    }
+    .conten-right-mid{
+        width: 99%;
+        margin:  0 auto;
+    }
+}
