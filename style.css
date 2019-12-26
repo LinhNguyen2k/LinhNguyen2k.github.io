@@ -1,0 +1,92 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.div-main{
+
+	color: black;
+	font-weight: bold;
+	background-color: red;
+	align-items: center;
+	text-align: center;
+	line-height: 100px;
+	cursor: pointer;
+	width: 100px;
+ 	height: 100px;
+ 	background-color: red;
+ 	margin-left: 500px;
+ 	position: relative;
+ 	margin-top: 200px;
+ 	
+}
+
+.div-main .left{
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: yellow;
+ 	position: absolute;
+ 	margin-left:-100px;
+ 	transform: translateX(100px);
+ 	display: block;
+ 	margin-top: -100px;
+ 	z-index: -95;
+
+ }
+ 
+ .div-main .right{
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: teal;
+ 	position: absolute;
+ 	margin-left: 100px;
+ 	margin-top: -100px;
+ 	transform: translateX(-100px);
+ 	z-index: -98;
+ }
+.div-main .top{
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: green;
+ 	position: absolute;
+ 	margin-left: 0px;
+ 	display: block;
+ 	z-index: -99;
+ 	transform: translateY(-100px);
+
+ }
+.div-main .botoom{
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: pink;
+ 	position: absolute;
+ 	margin-left: 0px;
+ 	z-index: -100;
+ 	transform: translateY(-100px);
+ }
+
+ .div-main:hover div{
+ 	cursor: pointer;
+ 	transition: .7s;
+ }
+ .div-main:hover .left{
+ 	transform: translateX(0px);
+ 	cursor: pointer;
+ }
+ .div-main:hover .right{
+ 	transform: translateX(0px);
+ 	cursor: pointer;
+ }
+ .div-main:hover .top{
+ 	transform: translateY(-200px);
+ 	cursor: pointer;
+ }
+ .div-main:hover .botoom {
+ 	transform: translateY(0px);
+ 	cursor: pointer;
+ }
+
+ 
+ 
+
+
